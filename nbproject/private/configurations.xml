@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="Build">
+      </df>
+      <df name="Config">
+        <df name="ldscripts">
+        </df>
+        <in>startup_stm32f746xx.s</in>
+        <in>system_stm32f7xx.c</in>
+      </df>
+      <df name="Drivers">
+        <df name="BSP">
+          <df name="Components">
+            <df name="ampire480272">
+              <in>ampire480272.h</in>
+            </df>
+            <df name="ampire640480">
+              <in>ampire640480.h</in>
+            </df>
+            <df name="Common">
+              <in>accelero.h</in>
+              <in>audio.h</in>
+              <in>camera.h</in>
+              <in>epd.h</in>
+              <in>gyro.h</in>
+              <in>idd.h</in>
+              <in>io.h</in>
+              <in>lcd.h</in>
+              <in>magneto.h</in>
+              <in>ts.h</in>
+              <in>tsensor.h</in>
+            </df>
+            <df name="exc7200">
+              <in>exc7200.c</in>
+              <in>exc7200.h</in>
+            </df>
+            <df name="ft5336">
+              <in>ft5336.c</in>
+              <in>ft5336.h</in>
+            </df>
+            <df name="mfxstm32l152">
+              <in>mfxstm32l152.c</in>
+              <in>mfxstm32l152.h</in>
+            </df>
+            <df name="n25q128a">
+              <in>n25q128a.h</in>
+            </df>
+            <df name="n25q512a">
+              <in>n25q512a.h</in>
+            </df>
+            <df name="ov9655">
+              <in>ov9655.c</in>
+              <in>ov9655.h</in>
+            </df>
+            <df name="rk043fn48h">
+              <in>rk043fn48h.h</in>
+            </df>
+            <df name="s5k5cag">
+              <in>s5k5cag.c</in>
+              <in>s5k5cag.h</in>
+            </df>
+            <df name="st7735">
+              <in>st7735.c</in>
+              <in>st7735.h</in>
+            </df>
+            <df name="stmpe811">
+              <in>stmpe811.c</in>
+              <in>stmpe811.h</in>
+            </df>
+            <df name="ts3510">
+              <in>ts3510.c</in>
+              <in>ts3510.h</in>
+            </df>
+            <df name="wm8994">
+              <in>wm8994.c</in>
+              <in>wm8994.h</in>
+            </df>
+          </df>
+          <df name="STM32746G-Discovery">
+            <in>stm32746g_discovery.c</in>
+            <in>stm32746g_discovery.h</in>
+            <in>stm32746g_discovery_audio.c</in>
+            <in>stm32746g_discovery_audio.h</in>
+            <in>stm32746g_discovery_camera.c</in>
+            <in>stm32746g_discovery_camera.h</in>
+            <in>stm32746g_discovery_eeprom.c</in>
+            <in>stm32746g_discovery_eeprom.h</in>
+            <in>stm32746g_discovery_lcd.c</in>
+            <in>stm32746g_discovery_lcd.h</in>
+            <in>stm32746g_discovery_qspi.c</in>
+            <in>stm32746g_discovery_qspi.h</in>
+            <in>stm32746g_discovery_sd.c</in>
+            <in>stm32746g_discovery_sd.h</in>
+            <in>stm32746g_discovery_sdram.c</in>
+            <in>stm32746g_discovery_sdram.h</in>
+            <in>stm32746g_discovery_ts.c</in>
+            <in>stm32746g_discovery_ts.h</in>
+          </df>
+        </df>
+        <df name="CMSIS">
+          <df name="Device">
+            <df name="ST">
+              <df name="STM32F7xx">
+                <df name="Include">
+                  <in>stm32f745xx.h</in>
+                  <in>stm32f746xx.h</in>
+                  <in>stm32f756xx.h</in>
+                  <in>stm32f7xx.h</in>
+                  <in>system_stm32f7xx.h</in>
+                </df>
+                <df name="Source">
+                  <df name="Templates">
+                    <df name="arm">
+                      <in>startup_stm32f745xx.s</in>
+                      <in>startup_stm32f746xx.s</in>
+                      <in>startup_stm32f756xx.s</in>
+                    </df>
+                    <df name="gcc">
+                      <in>startup_stm32f745xx.s</in>
+                      <in>startup_stm32f746xx.s</in>
+                      <in>startup_stm32f756xx.s</in>
+                    </df>
+                    <df name="iar">
+                      <df name="linker">
+                      </df>
+                      <in>startup_stm32f745xx.s</in>
+                      <in>startup_stm32f746xx.s</in>
+                      <in>startup_stm32f756xx.s</in>
+                    </df>
+                    <in>system_stm32f7xx.c</in>
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="Documentation">
+            <df name="Core">
+              <df name="html">
+                <df name="search">
+                </df>
+              </df>
+            </df>
+            <df name="DSP">
+              <df name="html">
+                <df name="search">
+                </df>
+              </df>
+            </df>
+            <df name="General">
+              <df name="html">
+              </df>
+            </df>
+            <df name="RTOS">
+              <df name="html">
+              </df>
+            </df>
+          </df>
+          <df name="DSP_Lib">
+            <df name="Examples">
+              <df name="arm_class_marks_example">
+                <df name="ARM">
+                  <in>arm_class_marks_example_f32.c</in>
+                </df>
+                <df name="GCC">
+                  <in>arm_class_marks_example_f32.c</in>
+                </df>
+              </df>
+              <df name="arm_convolution_example">
+                <df name="ARM">
+                  <in>arm_convolution_example_f32.c</in>
+                  <in>math_helper.c</in>
+                  <in>math_helper.h</in>
+                </df>
+                <df name="GCC">
+                  <in>arm_convolution_example_f32.c</in>
+                  <in>math_helper.c</in>
+                  <in>math_helper.h</in>
+                </df>
+              </df>
+              <df name="arm_dotproduct_example">
+                <df name="ARM">
+                  <in>arm_dotproduct_example_f32.c</in>
+                </df>
+                <df name="GCC">
+                  <in>arm_dotproduct_example_f32.c</in>
+                </df>
+              </df>
+              <df name="arm_fft_bin_example">
+                <df name="ARM">
+                  <in>arm_fft_bin_data.c</in>
+                  <in>arm_fft_bin_example_f32.c</in>
+                </df>
+                <df name="GCC">
+                  <in>arm_fft_bin_data.c</in>
+                  <in>arm_fft_bin_example_f32.c</in>
+                </df>
+              </df>
+              <df name="arm_fir_example">
+                <df name="ARM">
+                  <in>arm_fir_data.c</in>
+                  <in>arm_fir_example_f32.c</in>
+                  <in>math_helper.c</in>
+                  <in>math_helper.h</in>
+                </df>
+              </df>
+              <df name="arm_graphic_equalizer_example">
+                <df name="ARM">
+                  <in>arm_graphic_equalizer_data.c</in>
+                  <in>arm_graphic_equalizer_example_q31.c</in>
+                  <in>math_helper.c</in>
+                  <in>math_helper.h</in>
+                </df>
+              </df>
+              <df name="arm_linear_interp_example">
+                <df name="ARM">
+                  <in>arm_linear_interp_data.c</in>
+                  <in>arm_linear_interp_example_f32.c</in>
+                  <in>math_helper.c</in>
+                  <in>math_helper.h</in>
+                </df>
+              </df>
+              <df name="arm_matrix_example">
+                <df name="ARM">
+                  <in>arm_matrix_example_f32.c</in>
+                  <in>math_helper.c</in>
+                  <in>math_helper.h</in>
+                </df>
+              </df>
+              <df name="arm_signal_converge_example">
+                <df name="ARM">
+                  <in>arm_signal_converge_data.c</in>
+                  <in>arm_signal_converge_example_f32.c</in>
+                  <in>math_helper.c</in>
+                  <in>math_helper.h</in>
+                </df>
+              </df>
+              <df name="arm_sin_cos_example">
+                <df name="ARM">
+                  <in>arm_sin_cos_example_f32.c</in>
+                </df>
+              </df>
+              <df name="arm_variance_example">
+                <df name="ARM">
+                  <in>arm_variance_example_f32.c</in>
+                </df>
+              </df>
+            </df>
+            <df name="Source">
+              <df name="BasicMathFunctions">
+                <in>arm_abs_f32.c</in>
+                <in>arm_abs_q15.c</in>
+                <in>arm_abs_q31.c</in>
+                <in>arm_abs_q7.c</in>
+                <in>arm_add_f32.c</in>
+                <in>arm_add_q15.c</in>
+                <in>arm_add_q31.c</in>
+                <in>arm_add_q7.c</in>
+                <in>arm_dot_prod_f32.c</in>
+                <in>arm_dot_prod_q15.c</in>
+                <in>arm_dot_prod_q31.c</in>
+                <in>arm_dot_prod_q7.c</in>
+                <in>arm_mult_f32.c</in>
+                <in>arm_mult_q15.c</in>
+                <in>arm_mult_q31.c</in>
+                <in>arm_mult_q7.c</in>
+                <in>arm_negate_f32.c</in>
+                <in>arm_negate_q15.c</in>
+                <in>arm_negate_q31.c</in>
+                <in>arm_negate_q7.c</in>
+                <in>arm_offset_f32.c</in>
+                <in>arm_offset_q15.c</in>
+                <in>arm_offset_q31.c</in>
+                <in>arm_offset_q7.c</in>
+                <in>arm_scale_f32.c</in>
+                <in>arm_scale_q15.c</in>
+                <in>arm_scale_q31.c</in>
+                <in>arm_scale_q7.c</in>
+                <in>arm_shift_q15.c</in>
+                <in>arm_shift_q31.c</in>
+                <in>arm_shift_q7.c</in>
+                <in>arm_sub_f32.c</in>
+                <in>arm_sub_q15.c</in>
+                <in>arm_sub_q31.c</in>
+                <in>arm_sub_q7.c</in>
+              </df>
+              <df name="CommonTables">
+                <in>arm_common_tables.c</in>
+                <in>arm_const_structs.c</in>
+              </df>
+              <df name="ComplexMathFunctions">
+                <in>arm_cmplx_conj_f32.c</in>
+                <in>arm_cmplx_conj_q15.c</in>
+                <in>arm_cmplx_conj_q31.c</in>
+                <in>arm_cmplx_dot_prod_f32.c</in>
+                <in>arm_cmplx_dot_prod_q15.c</in>
+                <in>arm_cmplx_dot_prod_q31.c</in>
+                <in>arm_cmplx_mag_f32.c</in>
+                <in>arm_cmplx_mag_q15.c</in>
+                <in>arm_cmplx_mag_q31.c</in>
+                <in>arm_cmplx_mag_squared_f32.c</in>
+                <in>arm_cmplx_mag_squared_q15.c</in>
+                <in>arm_cmplx_mag_squared_q31.c</in>
+                <in>arm_cmplx_mult_cmplx_f32.c</in>
+                <in>arm_cmplx_mult_cmplx_q15.c</in>
+                <in>arm_cmplx_mult_cmplx_q31.c</in>
+                <in>arm_cmplx_mult_real_f32.c</in>
+                <in>arm_cmplx_mult_real_q15.c</in>
+                <in>arm_cmplx_mult_real_q31.c</in>
+              </df>
+              <df name="ControllerFunctions">
+                <in>arm_pid_init_f32.c</in>
+                <in>arm_pid_init_q15.c</in>
+                <in>arm_pid_init_q31.c</in>
+                <in>arm_pid_reset_f32.c</in>
+                <in>arm_pid_reset_q15.c</in>
+                <in>arm_pid_reset_q31.c</in>
+                <in>arm_sin_cos_f32.c</in>
+                <in>arm_sin_cos_q31.c</in>
+              </df>
+              <df name="FastMathFunctions">
+                <in>arm_cos_f32.c</in>
+                <in>arm_cos_q15.c</in>
+                <in>arm_cos_q31.c</in>
+                <in>arm_sin_f32.c</in>
+                <in>arm_sin_q15.c</in>
+                <in>arm_sin_q31.c</in>
+                <in>arm_sqrt_q15.c</in>
+                <in>arm_sqrt_q31.c</in>
+              </df>
+              <df name="FilteringFunctions">
+                <in>arm_biquad_cascade_df1_32x64_init_q31.c</in>
+                <in>arm_biquad_cascade_df1_32x64_q31.c</in>
+                <in>arm_biquad_cascade_df1_f32.c</in>
+                <in>arm_biquad_cascade_df1_fast_q15.c</in>
+                <in>arm_biquad_cascade_df1_fast_q31.c</in>
+                <in>arm_biquad_cascade_df1_init_f32.c</in>
+                <in>arm_biquad_cascade_df1_init_q15.c</in>
+                <in>arm_biquad_cascade_df1_init_q31.c</in>
+                <in>arm_biquad_cascade_df1_q15.c</in>
+                <in>arm_biquad_cascade_df1_q31.c</in>
+                <in>arm_biquad_cascade_df2T_f32.c</in>
+                <in>arm_biquad_cascade_df2T_f64.c</in>
+                <in>arm_biquad_cascade_df2T_init_f32.c</in>
+                <in>arm_biquad_cascade_df2T_init_f64.c</in>
+                <in>arm_biquad_cascade_stereo_df2T_f32.c</in>
+                <in>arm_biquad_cascade_stereo_df2T_init_f32.c</in>
+                <in>arm_conv_f32.c</in>
+                <in>arm_conv_fast_opt_q15.c</in>
+                <in>arm_conv_fast_q15.c</in>
+                <in>arm_conv_fast_q31.c</in>
+                <in>arm_conv_opt_q15.c</in>
+                <in>arm_conv_opt_q7.c</in>
+                <in>arm_conv_partial_f32.c</in>
+                <in>arm_conv_partial_fast_opt_q15.c</in>
+                <in>arm_conv_partial_fast_q15.c</in>
+                <in>arm_conv_partial_fast_q31.c</in>
+                <in>arm_conv_partial_opt_q15.c</in>
+                <in>arm_conv_partial_opt_q7.c</in>
+                <in>arm_conv_partial_q15.c</in>
+                <in>arm_conv_partial_q31.c</in>
+                <in>arm_conv_partial_q7.c</in>
+                <in>arm_conv_q15.c</in>
+                <in>arm_conv_q31.c</in>
+                <in>arm_conv_q7.c</in>
+                <in>arm_correlate_f32.c</in>
+                <in>arm_correlate_fast_opt_q15.c</in>
+                <in>arm_correlate_fast_q15.c</in>
+                <in>arm_correlate_fast_q31.c</in>
+                <in>arm_correlate_opt_q15.c</in>
+                <in>arm_correlate_opt_q7.c</in>
+                <in>arm_correlate_q15.c</in>
+                <in>arm_correlate_q31.c</in>
+                <in>arm_correlate_q7.c</in>
+                <in>arm_fir_decimate_f32.c</in>
+                <in>arm_fir_decimate_fast_q15.c</in>
+                <in>arm_fir_decimate_fast_q31.c</in>
+                <in>arm_fir_decimate_init_f32.c</in>
+                <in>arm_fir_decimate_init_q15.c</in>
+                <in>arm_fir_decimate_init_q31.c</in>
+                <in>arm_fir_decimate_q15.c</in>
+                <in>arm_fir_decimate_q31.c</in>
+                <in>arm_fir_f32.c</in>
+                <in>arm_fir_fast_q15.c</in>
+                <in>arm_fir_fast_q31.c</in>
+                <in>arm_fir_init_f32.c</in>
+                <in>arm_fir_init_q15.c</in>
+                <in>arm_fir_init_q31.c</in>
+                <in>arm_fir_init_q7.c</in>
+                <in>arm_fir_interpolate_f32.c</in>
+                <in>arm_fir_interpolate_init_f32.c</in>
+                <in>arm_fir_interpolate_init_q15.c</in>
+                <in>arm_fir_interpolate_init_q31.c</in>
+                <in>arm_fir_interpolate_q15.c</in>
+                <in>arm_fir_interpolate_q31.c</in>
+                <in>arm_fir_lattice_f32.c</in>
+                <in>arm_fir_lattice_init_f32.c</in>
+                <in>arm_fir_lattice_init_q15.c</in>
+                <in>arm_fir_lattice_init_q31.c</in>
+                <in>arm_fir_lattice_q15.c</in>
+                <in>arm_fir_lattice_q31.c</in>
+                <in>arm_fir_q15.c</in>
+                <in>arm_fir_q31.c</in>
+                <in>arm_fir_q7.c</in>
+                <in>arm_fir_sparse_f32.c</in>
+                <in>arm_fir_sparse_init_f32.c</in>
+                <in>arm_fir_sparse_init_q15.c</in>
+                <in>arm_fir_sparse_init_q31.c</in>
+                <in>arm_fir_sparse_init_q7.c</in>
+                <in>arm_fir_sparse_q15.c</in>
+                <in>arm_fir_sparse_q31.c</in>
+                <in>arm_fir_sparse_q7.c</in>
+                <in>arm_iir_lattice_f32.c</in>
+                <in>arm_iir_lattice_init_f32.c</in>
+                <in>arm_iir_lattice_init_q15.c</in>
+                <in>arm_iir_lattice_init_q31.c</in>
+                <in>arm_iir_lattice_q15.c</in>
+                <in>arm_iir_lattice_q31.c</in>
+                <in>arm_lms_f32.c</in>
+                <in>arm_lms_init_f32.c</in>
+                <in>arm_lms_init_q15.c</in>
+                <in>arm_lms_init_q31.c</in>
+                <in>arm_lms_norm_f32.c</in>
+                <in>arm_lms_norm_init_f32.c</in>
+                <in>arm_lms_norm_init_q15.c</in>
+                <in>arm_lms_norm_init_q31.c</in>
+                <in>arm_lms_norm_q15.c</in>
+                <in>arm_lms_norm_q31.c</in>
+                <in>arm_lms_q15.c</in>
+                <in>arm_lms_q31.c</in>
+              </df>
+              <df name="MatrixFunctions">
+                <in>arm_mat_add_f32.c</in>
+                <in>arm_mat_add_q15.c</in>
+                <in>arm_mat_add_q31.c</in>
+                <in>arm_mat_cmplx_mult_f32.c</in>
+                <in>arm_mat_cmplx_mult_q15.c</in>
+                <in>arm_mat_cmplx_mult_q31.c</in>
+                <in>arm_mat_init_f32.c</in>
+                <in>arm_mat_init_q15.c</in>
+                <in>arm_mat_init_q31.c</in>
+                <in>arm_mat_inverse_f32.c</in>
+                <in>arm_mat_inverse_f64.c</in>
+                <in>arm_mat_mult_f32.c</in>
+                <in>arm_mat_mult_fast_q15.c</in>
+                <in>arm_mat_mult_fast_q31.c</in>
+                <in>arm_mat_mult_q15.c</in>
+                <in>arm_mat_mult_q31.c</in>
+                <in>arm_mat_scale_f32.c</in>
+                <in>arm_mat_scale_q15.c</in>
+                <in>arm_mat_scale_q31.c</in>
+                <in>arm_mat_sub_f32.c</in>
+                <in>arm_mat_sub_q15.c</in>
+                <in>arm_mat_sub_q31.c</in>
+                <in>arm_mat_trans_f32.c</in>
+                <in>arm_mat_trans_q15.c</in>
+                <in>arm_mat_trans_q31.c</in>
+              </df>
+              <df name="StatisticsFunctions">
+                <in>arm_max_f32.c</in>
+                <in>arm_max_q15.c</in>
+                <in>arm_max_q31.c</in>
+                <in>arm_max_q7.c</in>
+                <in>arm_mean_f32.c</in>
+                <in>arm_mean_q15.c</in>
+                <in>arm_mean_q31.c</in>
+                <in>arm_mean_q7.c</in>
+                <in>arm_min_f32.c</in>
+                <in>arm_min_q15.c</in>
+                <in>arm_min_q31.c</in>
+                <in>arm_min_q7.c</in>
+                <in>arm_power_f32.c</in>
+                <in>arm_power_q15.c</in>
+                <in>arm_power_q31.c</in>
+                <in>arm_power_q7.c</in>
+                <in>arm_rms_f32.c</in>
+                <in>arm_rms_q15.c</in>
+                <in>arm_rms_q31.c</in>
+                <in>arm_std_f32.c</in>
+                <in>arm_std_q15.c</in>
+                <in>arm_std_q31.c</in>
+                <in>arm_var_f32.c</in>
+                <in>arm_var_q15.c</in>
+                <in>arm_var_q31.c</in>
+              </df>
+              <df name="SupportFunctions">
+                <in>arm_copy_f32.c</in>
+                <in>arm_copy_q15.c</in>
+                <in>arm_copy_q31.c</in>
+                <in>arm_copy_q7.c</in>
+                <in>arm_fill_f32.c</in>
+                <in>arm_fill_q15.c</in>
+                <in>arm_fill_q31.c</in>
+                <in>arm_fill_q7.c</in>
+                <in>arm_float_to_q15.c</in>
+                <in>arm_float_to_q31.c</in>
+                <in>arm_float_to_q7.c</in>
+                <in>arm_q15_to_float.c</in>
+                <in>arm_q15_to_q31.c</in>
+                <in>arm_q15_to_q7.c</in>
+                <in>arm_q31_to_float.c</in>
+                <in>arm_q31_to_q15.c</in>
+                <in>arm_q31_to_q7.c</in>
+                <in>arm_q7_to_float.c</in>
+                <in>arm_q7_to_q15.c</in>
+                <in>arm_q7_to_q31.c</in>
+              </df>
+              <df name="TransformFunctions">
+                <in>arm_bitreversal.c</in>
+                <in>arm_bitreversal2.S</in>
+                <in>arm_cfft_f32.c</in>
+                <in>arm_cfft_q15.c</in>
+                <in>arm_cfft_q31.c</in>
+                <in>arm_cfft_radix2_f32.c</in>
+                <in>arm_cfft_radix2_init_f32.c</in>
+                <in>arm_cfft_radix2_init_q15.c</in>
+                <in>arm_cfft_radix2_init_q31.c</in>
+                <in>arm_cfft_radix2_q15.c</in>
+                <in>arm_cfft_radix2_q31.c</in>
+                <in>arm_cfft_radix4_f32.c</in>
+                <in>arm_cfft_radix4_init_f32.c</in>
+                <in>arm_cfft_radix4_init_q15.c</in>
+                <in>arm_cfft_radix4_init_q31.c</in>
+                <in>arm_cfft_radix4_q15.c</in>
+                <in>arm_cfft_radix4_q31.c</in>
+                <in>arm_cfft_radix8_f32.c</in>
+                <in>arm_dct4_f32.c</in>
+                <in>arm_dct4_init_f32.c</in>
+                <in>arm_dct4_init_q15.c</in>
+                <in>arm_dct4_init_q31.c</in>
+                <in>arm_dct4_q15.c</in>
+                <in>arm_dct4_q31.c</in>
+                <in>arm_rfft_f32.c</in>
+                <in>arm_rfft_fast_f32.c</in>
+                <in>arm_rfft_fast_init_f32.c</in>
+                <in>arm_rfft_init_f32.c</in>
+                <in>arm_rfft_init_q15.c</in>
+                <in>arm_rfft_init_q31.c</in>
+                <in>arm_rfft_q15.c</in>
+                <in>arm_rfft_q31.c</in>
+              </df>
+            </df>
+          </df>
+          <df name="Include">
+            <in>arm_common_tables.h</in>
+            <in>arm_const_structs.h</in>
+            <in>arm_math.h</in>
+            <in>cmsis_armcc.h</in>
+            <in>cmsis_armcc_V6.h</in>
+            <in>cmsis_gcc.h</in>
+            <in>core_cm0.h</in>
+            <in>core_cm0plus.h</in>
+            <in>core_cm3.h</in>
+            <in>core_cm4.h</in>
+            <in>core_cm7.h</in>
+            <in>core_cmFunc.h</in>
+            <in>core_cmInstr.h</in>
+            <in>core_cmSimd.h</in>
+            <in>core_sc000.h</in>
+            <in>core_sc300.h</in>
+          </df>
+          <df name="Lib">
+            <df name="GCC">
+            </df>
+          </df>
+        </df>
+        <df name="HAL">
+          <df name="Inc">
+            <df name="Legacy">
+              <in>stm32_hal_legacy.h</in>
+            </df>
+            <in>stm32f7xx_hal.h</in>
+            <in>stm32f7xx_hal_adc.h</in>
+            <in>stm32f7xx_hal_adc_ex.h</in>
+            <in>stm32f7xx_hal_can.h</in>
+            <in>stm32f7xx_hal_cec.h</in>
+            <in>stm32f7xx_hal_conf_template.h</in>
+            <in>stm32f7xx_hal_cortex.h</in>
+            <in>stm32f7xx_hal_crc.h</in>
+            <in>stm32f7xx_hal_crc_ex.h</in>
+            <in>stm32f7xx_hal_cryp.h</in>
+            <in>stm32f7xx_hal_cryp_ex.h</in>
+            <in>stm32f7xx_hal_dac.h</in>
+            <in>stm32f7xx_hal_dac_ex.h</in>
+            <in>stm32f7xx_hal_dcmi.h</in>
+            <in>stm32f7xx_hal_dcmi_ex.h</in>
+            <in>stm32f7xx_hal_def.h</in>
+            <in>stm32f7xx_hal_dma.h</in>
+            <in>stm32f7xx_hal_dma2d.h</in>
+            <in>stm32f7xx_hal_dma_ex.h</in>
+            <in>stm32f7xx_hal_eth.h</in>
+            <in>stm32f7xx_hal_flash.h</in>
+            <in>stm32f7xx_hal_flash_ex.h</in>
+            <in>stm32f7xx_hal_gpio.h</in>
+            <in>stm32f7xx_hal_gpio_ex.h</in>
+            <in>stm32f7xx_hal_hash.h</in>
+            <in>stm32f7xx_hal_hash_ex.h</in>
+            <in>stm32f7xx_hal_hcd.h</in>
+            <in>stm32f7xx_hal_i2c.h</in>
+            <in>stm32f7xx_hal_i2c_ex.h</in>
+            <in>stm32f7xx_hal_i2s.h</in>
+            <in>stm32f7xx_hal_irda.h</in>
+            <in>stm32f7xx_hal_irda_ex.h</in>
+            <in>stm32f7xx_hal_iwdg.h</in>
+            <in>stm32f7xx_hal_lptim.h</in>
+            <in>stm32f7xx_hal_ltdc.h</in>
+            <in>stm32f7xx_hal_nand.h</in>
+            <in>stm32f7xx_hal_nor.h</in>
+            <in>stm32f7xx_hal_pcd.h</in>
+            <in>stm32f7xx_hal_pcd_ex.h</in>
+            <in>stm32f7xx_hal_pwr.h</in>
+            <in>stm32f7xx_hal_pwr_ex.h</in>
+            <in>stm32f7xx_hal_qspi.h</in>
+            <in>stm32f7xx_hal_rcc.h</in>
+            <in>stm32f7xx_hal_rcc_ex.h</in>
+            <in>stm32f7xx_hal_rng.h</in>
+            <in>stm32f7xx_hal_rtc.h</in>
+            <in>stm32f7xx_hal_rtc_ex.h</in>
+            <in>stm32f7xx_hal_sai.h</in>
+            <in>stm32f7xx_hal_sai_ex.h</in>
+            <in>stm32f7xx_hal_sd.h</in>
+            <in>stm32f7xx_hal_sdram.h</in>
+            <in>stm32f7xx_hal_smartcard.h</in>
+            <in>stm32f7xx_hal_smartcard_ex.h</in>
+            <in>stm32f7xx_hal_spdifrx.h</in>
+            <in>stm32f7xx_hal_spi.h</in>
+            <in>stm32f7xx_hal_sram.h</in>
+            <in>stm32f7xx_hal_tim.h</in>
+            <in>stm32f7xx_hal_tim_ex.h</in>
+            <in>stm32f7xx_hal_uart.h</in>
+            <in>stm32f7xx_hal_uart_ex.h</in>
+            <in>stm32f7xx_hal_usart.h</in>
+            <in>stm32f7xx_hal_usart_ex.h</in>
+            <in>stm32f7xx_hal_wwdg.h</in>
+            <in>stm32f7xx_ll_fmc.h</in>
+            <in>stm32f7xx_ll_sdmmc.h</in>
+            <in>stm32f7xx_ll_usb.h</in>
+          </df>
+          <df name="Src">
+            <in>stm32f7xx_hal.c</in>
+            <in>stm32f7xx_hal_adc.c</in>
+            <in>stm32f7xx_hal_adc_ex.c</in>
+            <in>stm32f7xx_hal_can.c</in>
+            <in>stm32f7xx_hal_cec.c</in>
+            <in>stm32f7xx_hal_cortex.c</in>
+            <in>stm32f7xx_hal_crc.c</in>
+            <in>stm32f7xx_hal_crc_ex.c</in>
+            <in>stm32f7xx_hal_cryp.c</in>
+            <in>stm32f7xx_hal_cryp_ex.c</in>
+            <in>stm32f7xx_hal_dac.c</in>
+            <in>stm32f7xx_hal_dac_ex.c</in>
+            <in>stm32f7xx_hal_dcmi.c</in>
+            <in>stm32f7xx_hal_dcmi_ex.c</in>
+            <in>stm32f7xx_hal_dma.c</in>
+            <in>stm32f7xx_hal_dma2d.c</in>
+            <in>stm32f7xx_hal_dma_ex.c</in>
+            <in>stm32f7xx_hal_eth.c</in>
+            <in>stm32f7xx_hal_flash.c</in>
+            <in>stm32f7xx_hal_flash_ex.c</in>
+            <in>stm32f7xx_hal_gpio.c</in>
+            <in>stm32f7xx_hal_hash.c</in>
+            <in>stm32f7xx_hal_hash_ex.c</in>
+            <in>stm32f7xx_hal_hcd.c</in>
+            <in>stm32f7xx_hal_i2c.c</in>
+            <in>stm32f7xx_hal_i2c_ex.c</in>
+            <in>stm32f7xx_hal_i2s.c</in>
+            <in>stm32f7xx_hal_irda.c</in>
+            <in>stm32f7xx_hal_iwdg.c</in>
+            <in>stm32f7xx_hal_lptim.c</in>
+            <in>stm32f7xx_hal_ltdc.c</in>
+            <in>stm32f7xx_hal_msp_template.c</in>
+            <in>stm32f7xx_hal_nand.c</in>
+            <in>stm32f7xx_hal_nor.c</in>
+            <in>stm32f7xx_hal_pcd.c</in>
+            <in>stm32f7xx_hal_pcd_ex.c</in>
+            <in>stm32f7xx_hal_pwr.c</in>
+            <in>stm32f7xx_hal_pwr_ex.c</in>
+            <in>stm32f7xx_hal_qspi.c</in>
+            <in>stm32f7xx_hal_rcc.c</in>
+            <in>stm32f7xx_hal_rcc_ex.c</in>
+            <in>stm32f7xx_hal_rng.c</in>
+            <in>stm32f7xx_hal_rtc.c</in>
+            <in>stm32f7xx_hal_rtc_ex.c</in>
+            <in>stm32f7xx_hal_sai.c</in>
+            <in>stm32f7xx_hal_sai_ex.c</in>
+            <in>stm32f7xx_hal_sd.c</in>
+            <in>stm32f7xx_hal_sdram.c</in>
+            <in>stm32f7xx_hal_smartcard.c</in>
+            <in>stm32f7xx_hal_smartcard_ex.c</in>
+            <in>stm32f7xx_hal_spdifrx.c</in>
+            <in>stm32f7xx_hal_spi.c</in>
+            <in>stm32f7xx_hal_sram.c</in>
+            <in>stm32f7xx_hal_tim.c</in>
+            <in>stm32f7xx_hal_tim_ex.c</in>
+            <in>stm32f7xx_hal_uart.c</in>
+            <in>stm32f7xx_hal_usart.c</in>
+            <in>stm32f7xx_hal_wwdg.c</in>
+            <in>stm32f7xx_ll_fmc.c</in>
+            <in>stm32f7xx_ll_sdmmc.c</in>
+            <in>stm32f7xx_ll_usb.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="Inc">
+        <in>FreeRTOSConfig.h</in>
+        <in>atTask.h</in>
+        <in>atcmd.h</in>
+        <in>common.h</in>
+        <in>contact.h</in>
+        <in>event.h</in>
+        <in>lcd_log_conf.h</in>
+        <in>main.h</in>
+        <in>stm32f7xx_hal_conf.h</in>
+        <in>stm32f7xx_it.h</in>
+      </df>
+      <df name="Src">
+        <in>At.c</in>
+        <in>AtCommandEcho.c</in>
+        <in>AtCommandLineTerminationCharacter.c</in>
+        <in>AtDCEResponseFormat.c</in>
+        <in>AtReadTemperature.c</in>
+        <in>AtRequestManufacturerIdentification.c</in>
+        <in>AtRequestModelIdentification.c</in>
+        <in>AtRequestProductSerialNumberIdentification.c</in>
+        <in>AtRequestRevisionIndentification.c</in>
+        <in>AtResetToDefaultConfiguration.c</in>
+        <in>AtResponseFormattingCharacter.c</in>
+        <in>AtResultCodeSupression.c</in>
+        <in>AtSetToFactoryDefinedConfiguration.c</in>
+        <in>AtStoreTelephoneNumber.c</in>
+        <in>atDispatcher.c</in>
+        <in>atTask.c</in>
+        <in>atcEvt.c</in>
+        <in>atcmd.c</in>
+        <in>contact.c</in>
+        <in>contactTask.c</in>
+        <in>factoryReset.c</in>
+        <in>main.c</in>
+        <in>manufacturerInfo.c</in>
+        <in>mcp3008.c</in>
+        <in>modelInfo.c</in>
+        <in>productTask.c</in>
+        <in>sensorTask.c</in>
+        <in>serialNumber.c</in>
+        <in>stm32f7xx_hal_msp.c</in>
+        <in>stm32f7xx_it.c</in>
+        <in>version.c</in>
+        <in>versionInfo.c</in>
+      </df>
+      <df name="Utilities">
+        <df name="Fonts">
+          <in>font12.c</in>
+          <in>font16.c</in>
+          <in>font20.c</in>
+          <in>font24.c</in>
+          <in>font8.c</in>
+          <in>fonts.h</in>
+        </df>
+        <df name="FreeRTOS">
+          <df name="License">
+          </df>
+          <df name="Source">
+            <df name="CMSIS_RTOS">
+              <in>cmsis_os.c</in>
+              <in>cmsis_os.h</in>
+            </df>
+            <df name="include">
+              <in>FreeRTOS.h</in>
+              <in>FreeRTOSConfig_template.h</in>
+              <in>StackMacros.h</in>
+              <in>croutine.h</in>
+              <in>deprecated_definitions.h</in>
+              <in>event_groups.h</in>
+              <in>list.h</in>
+              <in>mpu_wrappers.h</in>
+              <in>portable.h</in>
+              <in>projdefs.h</in>
+              <in>queue.h</in>
+              <in>semphr.h</in>
+              <in>task.h</in>
+              <in>timers.h</in>
+            </df>
+            <df name="portable">
+              <df name="GCC">
+                <df name="ARM_CM0">
+                  <in>port.c</in>
+                  <in>portmacro.h</in>
+                </df>
+                <df name="ARM_CM3">
+                  <in>port.c</in>
+                  <in>portmacro.h</in>
+                </df>
+                <df name="ARM_CM3_MPU">
+                  <in>port.c</in>
+                  <in>portmacro.h</in>
+                </df>
+                <df name="ARM_CM4F">
+                  <in>port.c</in>
+                  <in>portmacro.h</in>
+                </df>
+                <df name="ARM_CM7">
+                  <df name="r0p1">
+                    <in>port.c</in>
+                    <in>portmacro.h</in>
+                  </df>
+                </df>
+              </df>
+              <df name="MemMang">
+                <in>heap_1.c</in>
+                <in>heap_2.c</in>
+                <in>heap_3.c</in>
+                <in>heap_4.c</in>
+                <in>heap_5.c</in>
+              </df>
+            </df>
+            <in>croutine.c</in>
+            <in>event_groups.c</in>
+            <in>list.c</in>
+            <in>queue.c</in>
+            <in>tasks.c</in>
+            <in>timers.c</in>
+          </df>
+        </df>
+        <df name="Log">
+          <in>lcd_log.c</in>
+          <in>lcd_log.h</in>
+          <in>lcd_log_conf_template.h</in>
+        </df>
+      </df>
+    </df>
+    <df root="." name="1">
+      <df name="Build">
+      </df>
+      <df name="Config">
+        <df name="ldscripts">
+        </df>
+      </df>
+      <df name="Drivers">
+        <df name="BSP">
+          <df name="Components">
+            <df name="ampire480272">
+            </df>
+            <df name="ampire640480">
+            </df>
+            <df name="Common">
+            </df>
+            <df name="exc7200">
+            </df>
+            <df name="ft5336">
+            </df>
+            <df name="mfxstm32l152">
+            </df>
+            <df name="n25q128a">
+            </df>
+            <df name="n25q512a">
+            </df>
+            <df name="ov9655">
+            </df>
+            <df name="rk043fn48h">
+            </df>
+            <df name="s5k5cag">
+            </df>
+            <df name="st7735">
+            </df>
+            <df name="stmpe811">
+            </df>
+            <df name="ts3510">
+            </df>
+            <df name="wm8994">
+            </df>
+          </df>
+          <df name="STM32746G-Discovery">
+          </df>
+        </df>
+        <df name="CMSIS">
+          <df name="Device">
+            <df name="ST">
+              <df name="STM32F7xx">
+                <df name="Include">
+                </df>
+                <df name="Source">
+                  <df name="Templates">
+                    <df name="arm">
+                    </df>
+                    <df name="gcc">
+                    </df>
+                    <df name="iar">
+                      <df name="linker">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="Documentation">
+            <df name="Core">
+              <df name="html">
+                <df name="search">
+                </df>
+              </df>
+            </df>
+            <df name="DSP">
+              <df name="html">
+                <df name="search">
+                </df>
+              </df>
+            </df>
+            <df name="General">
+              <df name="html">
+              </df>
+            </df>
+            <df name="RTOS">
+              <df name="html">
+              </df>
+            </df>
+          </df>
+          <df name="DSP_Lib">
+            <df name="Examples">
+              <df name="arm_class_marks_example">
+                <df name="ARM">
+                </df>
+                <df name="GCC">
+                </df>
+              </df>
+              <df name="arm_convolution_example">
+                <df name="ARM">
+                </df>
+                <df name="GCC">
+                </df>
+              </df>
+              <df name="arm_dotproduct_example">
+                <df name="ARM">
+                </df>
+                <df name="GCC">
+                </df>
+              </df>
+              <df name="arm_fft_bin_example">
+                <df name="ARM">
+                </df>
+                <df name="GCC">
+                </df>
+              </df>
+              <df name="arm_fir_example">
+                <df name="ARM">
+                </df>
+              </df>
+              <df name="arm_graphic_equalizer_example">
+                <df name="ARM">
+                </df>
+              </df>
+              <df name="arm_linear_interp_example">
+                <df name="ARM">
+                </df>
+              </df>
+              <df name="arm_matrix_example">
+                <df name="ARM">
+                </df>
+              </df>
+              <df name="arm_signal_converge_example">
+                <df name="ARM">
+                </df>
+              </df>
+              <df name="arm_sin_cos_example">
+                <df name="ARM">
+                </df>
+              </df>
+              <df name="arm_variance_example">
+                <df name="ARM">
+                </df>
+              </df>
+            </df>
+            <df name="Source">
+              <df name="BasicMathFunctions">
+              </df>
+              <df name="CommonTables">
+              </df>
+              <df name="ComplexMathFunctions">
+              </df>
+              <df name="ControllerFunctions">
+              </df>
+              <df name="FastMathFunctions">
+              </df>
+              <df name="FilteringFunctions">
+              </df>
+              <df name="MatrixFunctions">
+              </df>
+              <df name="StatisticsFunctions">
+              </df>
+              <df name="SupportFunctions">
+              </df>
+              <df name="TransformFunctions">
+              </df>
+            </df>
+          </df>
+          <df name="Include">
+          </df>
+          <df name="Lib">
+            <df name="GCC">
+            </df>
+          </df>
+        </df>
+        <df name="HAL">
+          <df name="Inc">
+            <df name="Legacy">
+            </df>
+          </df>
+          <df name="Src">
+          </df>
+        </df>
+      </df>
+      <df name="Inc">
+      </df>
+      <df name="Src">
+      </df>
+      <df name="Utilities">
+        <df name="Fonts">
+        </df>
+        <df name="FreeRTOS">
+          <df name="License">
+          </df>
+          <df name="Source">
+            <df name="CMSIS_RTOS">
+            </df>
+            <df name="include">
+            </df>
+            <df name="portable">
+              <df name="GCC">
+                <df name="ARM_CM0">
+                </df>
+                <df name="ARM_CM3">
+                </df>
+                <df name="ARM_CM3_MPU">
+                </df>
+                <df name="ARM_CM4F">
+                </df>
+                <df name="ARM_CM7">
+                  <df name="r0p1">
+                  </df>
+                </df>
+              </df>
+              <df name="MemMang">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="Log">
+        </df>
+      </df>
+    </df>
+    <itemPath>Src/version.bash</itemPath>
+    <itemPath>version.bash</itemPath>
+    <itemPath>version.csh</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>4</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

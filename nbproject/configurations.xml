@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="Drivers">
+        <df name="BSP">
+          <df name="Components">
+            <df name="exc7200">
+              <in>exc7200.c</in>
+            </df>
+            <df name="ft5336">
+              <in>ft5336.c</in>
+            </df>
+            <df name="mfxstm32l152">
+              <in>mfxstm32l152.c</in>
+            </df>
+            <df name="ov9655">
+              <in>ov9655.c</in>
+            </df>
+            <df name="s5k5cag">
+              <in>s5k5cag.c</in>
+            </df>
+            <df name="st7735">
+              <in>st7735.c</in>
+            </df>
+            <df name="stmpe811">
+              <in>stmpe811.c</in>
+            </df>
+            <df name="ts3510">
+              <in>ts3510.c</in>
+            </df>
+            <df name="wm8994">
+              <in>wm8994.c</in>
+            </df>
+          </df>
+          <df name="STM32746G-Discovery">
+            <in>stm32746g_discovery.c</in>
+            <in>stm32746g_discovery_audio.c</in>
+            <in>stm32746g_discovery_camera.c</in>
+            <in>stm32746g_discovery_eeprom.c</in>
+            <in>stm32746g_discovery_lcd.c</in>
+            <in>stm32746g_discovery_qspi.c</in>
+            <in>stm32746g_discovery_sd.c</in>
+            <in>stm32746g_discovery_sdram.c</in>
+            <in>stm32746g_discovery_ts.c</in>
+          </df>
+        </df>
+        <df name="HAL">
+          <df name="Src">
+            <in>stm32f7xx_hal.c</in>
+            <in>stm32f7xx_hal_adc.c</in>
+            <in>stm32f7xx_hal_adc_ex.c</in>
+            <in>stm32f7xx_hal_can.c</in>
+            <in>stm32f7xx_hal_cec.c</in>
+            <in>stm32f7xx_hal_cortex.c</in>
+            <in>stm32f7xx_hal_crc.c</in>
+            <in>stm32f7xx_hal_crc_ex.c</in>
+            <in>stm32f7xx_hal_cryp.c</in>
+            <in>stm32f7xx_hal_cryp_ex.c</in>
+            <in>stm32f7xx_hal_dac.c</in>
+            <in>stm32f7xx_hal_dac_ex.c</in>
+            <in>stm32f7xx_hal_dcmi.c</in>
+            <in>stm32f7xx_hal_dcmi_ex.c</in>
+            <in>stm32f7xx_hal_dma.c</in>
+            <in>stm32f7xx_hal_dma2d.c</in>
+            <in>stm32f7xx_hal_dma_ex.c</in>
+            <in>stm32f7xx_hal_eth.c</in>
+            <in>stm32f7xx_hal_flash.c</in>
+            <in>stm32f7xx_hal_flash_ex.c</in>
+            <in>stm32f7xx_hal_gpio.c</in>
+            <in>stm32f7xx_hal_hash.c</in>
+            <in>stm32f7xx_hal_hash_ex.c</in>
+            <in>stm32f7xx_hal_hcd.c</in>
+            <in>stm32f7xx_hal_i2c.c</in>
+            <in>stm32f7xx_hal_i2c_ex.c</in>
+            <in>stm32f7xx_hal_i2s.c</in>
+            <in>stm32f7xx_hal_irda.c</in>
+            <in>stm32f7xx_hal_iwdg.c</in>
+            <in>stm32f7xx_hal_lptim.c</in>
+            <in>stm32f7xx_hal_ltdc.c</in>
+            <in>stm32f7xx_hal_msp_template.c</in>
+            <in>stm32f7xx_hal_nand.c</in>
+            <in>stm32f7xx_hal_nor.c</in>
+            <in>stm32f7xx_hal_pcd.c</in>
+            <in>stm32f7xx_hal_pcd_ex.c</in>
+            <in>stm32f7xx_hal_pwr.c</in>
+            <in>stm32f7xx_hal_pwr_ex.c</in>
+            <in>stm32f7xx_hal_qspi.c</in>
+            <in>stm32f7xx_hal_rcc.c</in>
+            <in>stm32f7xx_hal_rcc_ex.c</in>
+            <in>stm32f7xx_hal_rng.c</in>
+            <in>stm32f7xx_hal_rtc.c</in>
+            <in>stm32f7xx_hal_rtc_ex.c</in>
+            <in>stm32f7xx_hal_sai.c</in>
+            <in>stm32f7xx_hal_sai_ex.c</in>
+            <in>stm32f7xx_hal_sd.c</in>
+            <in>stm32f7xx_hal_sdram.c</in>
+            <in>stm32f7xx_hal_smartcard.c</in>
+            <in>stm32f7xx_hal_smartcard_ex.c</in>
+            <in>stm32f7xx_hal_spdifrx.c</in>
+            <in>stm32f7xx_hal_spi.c</in>
+            <in>stm32f7xx_hal_sram.c</in>
+            <in>stm32f7xx_hal_tim.c</in>
+            <in>stm32f7xx_hal_tim_ex.c</in>
+            <in>stm32f7xx_hal_uart.c</in>
+            <in>stm32f7xx_hal_usart.c</in>
+            <in>stm32f7xx_hal_wwdg.c</in>
+            <in>stm32f7xx_ll_fmc.c</in>
+            <in>stm32f7xx_ll_sdmmc.c</in>
+            <in>stm32f7xx_ll_usb.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="Inc">
+        <in>atTask.h</in>
+        <in>atcmd.h</in>
+        <in>common.h</in>
+        <in>contact.h</in>
+        <in>event.h</in>
+      </df>
+      <df name="Src">
+        <in>At.c</in>
+        <in>AtCommandLineTerminationCharacter.c</in>
+        <in>AtDCEResponseFormat.c</in>
+        <in>AtReadTemperature.c</in>
+        <in>AtRequestManufacturerIdentification.c</in>
+        <in>AtRequestModelIdentification.c</in>
+        <in>AtRequestRevisionIndentification.c</in>
+        <in>AtResponseFormattingCharacter.c</in>
+        <in>AtResultCodeSupression.c</in>
+        <in>AtStoreTelephoneNumber.c</in>
+        <in>atDispatcher.c</in>
+        <in>atTask.c</in>
+        <in>atcEvt.c</in>
+        <in>contact.c</in>
+        <in>contactTask.c</in>
+        <in>factoryReset.c</in>
+        <in>manufacturerInfo.c</in>
+        <in>mcp3008.c</in>
+        <in>modelInfo.c</in>
+        <in>productTask.c</in>
+        <in>sensorTask.c</in>
+        <in>serialNumber.c</in>
+        <in>version.c</in>
+        <in>versionInfo.c</in>
+      </df>
+      <df name="Utilities">
+        <df name="FreeRTOS">
+          <df name="Source">
+            <df name="CMSIS_RTOS">
+              <in>cmsis_os.c</in>
+            </df>
+            <df name="portable">
+              <df name="GCC">
+                <df name="ARM_CM7">
+                  <df name="r0p1">
+                    <in>port.c</in>
+                  </df>
+                </df>
+              </df>
+              <df name="MemMang">
+                <in>heap_1.c</in>
+              </df>
+            </df>
+            <in>croutine.c</in>
+            <in>event_groups.c</in>
+            <in>list.c</in>
+            <in>queue.c</in>
+            <in>tasks.c</in>
+            <in>timers.c</in>
+          </df>
+        </df>
+      </df>
+    </df>
+    <df root="." name="1">
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+    <itemPath>Src/version.bash</itemPath>
+    <itemPath>version.bash</itemPath>
+    <itemPath>version.csh</itemPath>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>ARM_ToolChain|Unknown</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-g -Os -std=c99"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="Drivers/BSP/Components/exc7200/exc7200.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/Components/ft5336/ft5336.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/Components/mfxstm32l152/mfxstm32l152.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/Components/ov9655/ov9655.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/Components/s5k5cag/s5k5cag.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/Components/st7735/st7735.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/Components/stmpe811/stmpe811.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/Components/ts3510/ts3510.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/Components/wm8994/wm8994.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32746G-Discovery/stm32746g_discovery.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_audio.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/BSP/Components/wm8994</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_camera.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/BSP/Components/ov9655</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_eeprom.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_lcd.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Utilities/Fonts</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_sd.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_sdram.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_ts.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/BSP/Components/ft5336</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_adc.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_adc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_can.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_cec.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_cortex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_crc.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_crc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_cryp.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_cryp_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_dac.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_dac_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_dcmi.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_dcmi_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_dma2d.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_dma_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_eth.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_flash.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_flash_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_hash.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_hash_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_hcd.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_i2c_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_i2s.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_irda.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_iwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_lptim.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_ltdc.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_msp_template.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_nand.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_nor.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_pcd.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_pcd_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_pwr.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_pwr_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_qspi.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_rcc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_rng.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_rtc.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_rtc_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_sai.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_sai_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_sd.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_sdram.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_smartcard.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_smartcard_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_spdifrx.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_sram.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_tim_ex.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_uart.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_usart.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_hal_wwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_ll_fmc.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_ll_sdmmc.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Drivers/HAL/Src/stm32f7xx_ll_usb.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Drivers/HAL/Src</pElem>
+            <pElem>Drivers/CMSIS/Device/ST/STM32F7xx/Include</pElem>
+            <pElem>Drivers/HAL/Inc</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Inc/atTask.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Inc/atcmd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Inc/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Inc/contact.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Inc/event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Src/At.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/AtCommandLineTerminationCharacter.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="Src/AtDCEResponseFormat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/AtReadTemperature.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/AtRequestManufacturerIdentification.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="Src/AtRequestModelIdentification.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/AtRequestRevisionIndentification.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="Src/AtResponseFormattingCharacter.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="Src/AtResultCodeSupression.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/AtStoreTelephoneNumber.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/atDispatcher.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/atTask.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/atcEvt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/contact.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/contactTask.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/factoryReset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/manufacturerInfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/mcp3008.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/modelInfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/productTask.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/sensorTask.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/serialNumber.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/version.bash" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Src/version.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Src/versionInfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Utilities/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Utilities/FreeRTOS/Source/croutine.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/arm-none-eabi/include/machine</pElem>
+            <pElem>/usr/arm-none-eabi/include/sys</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Utilities/FreeRTOS/Source/event_groups.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Utilities/FreeRTOS/Source</pElem>
+            <pElem>Utilities/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1</pElem>
+            <pElem>/usr/arm-none-eabi/include/machine</pElem>
+            <pElem>/usr/arm-none-eabi/include/sys</pElem>
+            <pElem>Utilities/FreeRTOS/Source/include</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Utilities/FreeRTOS/Source/list.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Utilities/FreeRTOS/Source</pElem>
+            <pElem>/usr/arm-none-eabi/include/machine</pElem>
+            <pElem>/usr/arm-none-eabi/include/sys</pElem>
+            <pElem>Utilities/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1</pElem>
+            <pElem>Utilities/FreeRTOS/Source/include</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Utilities/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Utilities/FreeRTOS/Source/portable/MemMang/heap_1.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="Utilities/FreeRTOS/Source/queue.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Utilities/FreeRTOS/Source</pElem>
+            <pElem>Utilities/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1</pElem>
+            <pElem>/usr/arm-none-eabi/include/machine</pElem>
+            <pElem>/usr/arm-none-eabi/include/sys</pElem>
+            <pElem>/usr/lib/gcc/arm-none-eabi/5.2.1/include</pElem>
+            <pElem>Utilities/FreeRTOS/Source/include</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Utilities/FreeRTOS/Source/tasks.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>Utilities/FreeRTOS/Source</pElem>
+            <pElem>Utilities/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1</pElem>
+            <pElem>/usr/arm-none-eabi/include/machine</pElem>
+            <pElem>/usr/arm-none-eabi/include/sys</pElem>
+            <pElem>/usr/lib/gcc/arm-none-eabi/5.2.1/include</pElem>
+            <pElem>Utilities/FreeRTOS/Source/include</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="Utilities/FreeRTOS/Source/timers.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/arm-none-eabi/include/machine</pElem>
+            <pElem>/usr/arm-none-eabi/include/sys</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <folder path="0/Drivers/BSP/Components/exc7200">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/exc7200</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/Components/ft5336">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/ft5336</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/Components/mfxstm32l152">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/mfxstm32l152</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/Components/ov9655">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/ov9655</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/Components/s5k5cag">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/s5k5cag</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/Components/st7735">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/st7735</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/Components/stmpe811">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/stmpe811</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/Components/ts3510">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/ts3510</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/Components/wm8994">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/Components/wm8994</pElem>
+            <pElem>Drivers/BSP/Components/Common</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Drivers/BSP/STM32746G-Discovery">
+        <cTool>
+          <incDir>
+            <pElem>Drivers/BSP/STM32746G-Discovery</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Utilities/FreeRTOS/Source/CMSIS_RTOS">
+        <cTool>
+          <incDir>
+            <pElem>Utilities/FreeRTOS/Source/CMSIS_RTOS</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Utilities/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1</pElem>
+            <pElem>/usr/arm-none-eabi/include/machine</pElem>
+            <pElem>/usr/arm-none-eabi/include/sys</pElem>
+            <pElem>Utilities/FreeRTOS/Source/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Utilities/FreeRTOS/Source/portable/GCC">
+        <cTool>
+          <incDir>
+            <pElem>Utilities/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1</pElem>
+            <pElem>/usr/arm-none-eabi/include/machine</pElem>
+            <pElem>/usr/arm-none-eabi/include/sys</pElem>
+            <pElem>Utilities/FreeRTOS/Source/include</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>Inc</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/Utilities/FreeRTOS/Source/portable/MemMang">
+        <cTool>
+          <incDir>
+            <pElem>Utilities/FreeRTOS/Source/portable/MemMang</pElem>
+            <pElem>Utilities/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1</pElem>
+            <pElem>/usr/arm-none-eabi/include/machine</pElem>
+            <pElem>/usr/arm-none-eabi/include/sys</pElem>
+            <pElem>/usr/lib/gcc/arm-none-eabi/5.2.1/include</pElem>
+            <pElem>Utilities/FreeRTOS/Source/include</pElem>
+            <pElem>Drivers/CMSIS/Include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="version.bash" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="version.csh" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
